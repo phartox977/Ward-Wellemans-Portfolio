@@ -1,0 +1,202 @@
+@media screen {
+    body {
+        background-color: blue;
+        line-height: normal;
+        padding: 5px;
+        margin: auto;
+    }
+
+    h1:hover {
+        color: yellow;
+    }
+
+    h2 {
+        color: yellow;
+        font-family: "source sans pro", cursive;
+    }
+
+    h2:hover {
+        text-decoration: underline;
+        width: 43%;
+    }
+
+    p:hover {
+        background-color: red;
+        color: black;
+    }
+
+    p:active {
+        color: black;
+        background-color: yellow;
+    }
+
+    .vetgedrukt {
+        text-decoration: underline;
+        font-weight: bold;
+    }
+
+    .vetgedrukt:hover {
+        color: black;
+        background-color: blue;
+    }
+}
+
+@media screen and (min-width:768px) {
+    body {
+        background-color: black;
+        color: white;
+    }
+
+    h1:hover {
+        color: limegreen;
+        background-color: #151515;
+        width: 24%;
+    }
+
+    h2 {
+        font-family: "Sulphur Point", cursive;
+        font-weight: normal;
+        margin-bottom: 0px;
+        font-size: 45px;
+        color: whitesmoke;
+    }
+
+    img:hover {
+        opacity: 0.7;
+    }
+
+    h2:hover {
+        background-color: inherit;
+    }
+
+    nav a {
+        background-color: #111;
+        color: white;
+        padding: 9px;
+        text-decoration: none;
+        width: 60%;
+        display: inline;
+        border: 1px solid gray;
+    }
+
+    a:visited {
+        background-color: #313;
+        color: ghostwhite;
+    }
+
+    a:hover {
+        background-color: #010611;
+        color: limegreen;
+    }
+
+    a:active {
+        background-color: inherit;
+        color: gold;
+    }
+
+    h2:hover {
+        color: limegreen;
+        text-decoration: underline;
+    }
+
+    p:hover {
+        color: limegreen;
+        background: black;
+    }
+    
+    li {
+        list-style-type: none;
+    }
+}
+
+@media screen and (min-width:992px) {
+    body {
+        background-color: azure;
+        color: black;
+    }
+
+    h1 {
+        text-decoration: underline;
+    }
+
+    .container {
+        width: 992px;
+    }
+
+    img:hover {
+        opacity: 1;
+    }
+
+    h1:hover {
+        color: black;
+        background-color: inherit;
+    }
+
+    h2 {
+        font-family: "Great Vibes", cursive;
+        font-weight: 400;
+        margin-bottom: 0px;
+        font-size: 40px;
+        color: black;
+    }
+
+    h2:hover {
+        text-decoration: underline;
+        color: black;
+        background-color: inherit;
+    }
+
+    div {
+        font-family: "Courgette", cursive;
+        font-size: 14px;
+    }
+
+    nav a {
+        background-color: cornsilk;
+        color: black;
+        padding: 8px;
+        text-decoration: none;
+        border: 1.5px solid #f0f00f;
+        display: inline;
+        border-radius: 6px;
+    }
+
+    a:visited {
+        background-color: cornsilk;
+        color: darkblue;
+    }
+
+    a:hover {
+        background-color: floralwhite;
+        color: black;
+    }
+
+    a:active {
+        background-color: gold;
+        color: black;
+    }
+
+
+
+    .row {
+        padding-top: 4px;
+        padding-bottom: 4px;
+    }
+
+    li {
+        list-style-type: none;
+    }
+
+    p:hover {
+        color: black;
+        border: 2px solid black;
+        padding: 10px 10px 10px 10px;
+        background-color: #d4ebf2;
+        box-shadow: 3px 2px gray;
+        border-radius: 10px;
+    }
+
+    footer {
+        padding-top: 20px;
+    }
+}
